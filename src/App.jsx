@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <User users={users} />
+      <User users={users} setUsers={setUsers} />
     </>
   )
 }
